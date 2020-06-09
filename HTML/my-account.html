@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+<head>
+
+
+<meta charset="utf-8">
+<title>Work Scout</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/colors/green.css" id="colors">
+
+
+
+</head>
+
+<body>
+<div id="wrapper">
+
+
+
+<header>
+<div class="container">
+	<div class="sixteen columns">
+
+		
+		<div id="logo">
+			<h1><a href="index.html"><img src="images/logo.png" alt="Work Scout" /></a></h1>
+		</div>
+
+		
+		<nav id="navigation" class="menu">
+			<ul id="responsive">
+
+				<li><a href="index.html">Home</a>
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						
+					</ul>
+				</li>
+
+				<li><a href="#">Paginas</a>
+					<ul>
+						<li><a href="job-page.html">Pagina de trabajos</a></li>
+						<li><a href="job-page-alt.html">Alternativas</a></li>
+						
+						<li><a href="pricing-tables.html">Suscripciones</a></li>
+						<li><a href="contact.html">Contactos</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#">Para candidatos</a>
+					<ul>
+						<li><a href="browse-jobs.html">Buscar trabajos</a></li>
+						<li><a href="browse-categories.html">Buscar categorias</a></li>
+				
+						<li><a href="job-alerts.html">Alertas</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#" >Para empleadores</a>
+					<ul>
+						<li><a href="add-job.html">Agregar trabajos</a></li>
+						<li><a href="manage-jobs.html">Organizar trabajos</a></li>
+						<li><a href="manage-applications.html">Manejar aplicaciones</a></li>
+						
+					</ul>
+				</li>
+
+				
+			</ul>
+
+
+			<ul class="responsive float-right">
+				<li><a href="my-account.html#tab2"><i class="fa fa-user"></i> Sign Up</a></li>
+				<li><a href="my-account.html"><i class="fa fa-lock"></i> Log In</a></li>
+			</ul>
+
+		</nav>
+
+		
+		<div id="mobile-navigation">
+			<a href="#menu" class="menu-trigger"><i class="fa fa-reorder"></i> Menu</a>
+		</div>
+
+	</div>
+</div>
+</header>
+<div class="clearfix"></div>
+
+
+
+<div id="titlebar" class="single">
+	<div class="container">
+
+		<div class="sixteen columns">
+			<h2>Mi cuenta</h2>
+			<nav id="breadcrumbs">
+				<ul>
+					<li>Tu estas aqui:</li>
+					<li><a href="#">Home</a></li>
+					<li>Mi cuenta</li>
+				</ul>
+			</nav>
+		</div>
+
+	</div>
+</div>
+
+
+
+<div class="container">
+
+	<div class="my-account">
+
+		<ul class="tabs-nav">
+			<li class=""><a href="#tab1">Login</a></li>
+			<li><a href="#tab2">Register</a></li>
+		</ul>
+
+		<div class="tabs-container">
+			
+			<div class="tab-content" id="tab1" style="display: none;">
+
+				<h3 class="margin-bottom-10 margin-top-10">Login</h3>
+
+				<form method="post" class="login">
+
+					
+					<p class="form-row form-row-wide">
+						<label for="username">Usuario o correo electronico:</label>
+						<input type="text" class="input-text" name="username" id="username" value="" />
+					</p>
+
+					<p class="form-row form-row-wide">
+						<label for="password">Contraseña:</label>
+						<input class="input-text" type="password" name="password" id="password" />
+					</p>
+
+					<p class="form-row">
+						<input type="submit" class="button" name="login" value="Login" />
+
+						<label for="rememberme" class="rememberme">
+						<input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Recuerda me</label>
+					</p>
+
+					<p class="lost_password">
+						<a href="#" >Perdiste tu contraseña</a>
+					</p>
+
+					
+				</form>
+			</div>
+
+				
+				<div class="tab-content" id="tab2" style="display: none;">
+
+					<h3 class="margin-bottom-10 margin-top-10">Registrar</h3>
+
+					<form method="post" class="register">
+						
+						<p class="form-row form-row-wide">
+							<label for="reg_email">Email:</label>
+							<input type="email" class="input-text" name="email" id="reg_email" value="" />
+						</p>
+
+						
+						<p class="form-row form-row-wide">
+							<label for="reg_password">Contraseña:</label>
+							<input type="password" class="input-text" name="password" id="reg_password" />
+						</p>
+
+						<p class="form-row form-row-wide">
+							<label for="reg_password2">Repitir contraseña:</label>
+							<input type="password" class="input-text" name="password" id="reg_password2" />
+						</p>
+
+									
+						<p class="form-row">
+							<input type="submit" class="button" name="register" value="Register" />
+						</p>
+						
+					</form>
+				</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="margin-top-30"></div>
+
+<div id="footer">
+	
+	<div class="container">
+
+		<div class="seven columns">
+			<h4>Sobre</h4>
+			<p>Quieres saber sobre mas trabajos? presiona el boton de abajo</p>
+			<a href="#" class="button">Inicia</a>
+		</div>
+
+		<div class="three columns">
+			<h4>Compañia</h4>
+			<ul class="footer-links">
+				<li><a href="#">Sobre nosotros</a></li>
+				<li><a href="#">Carreras</a></li>
+				<li><a href="#">nuestro Blog</a></li>
+			
+			</ul>
+		</div>
+		
+		<div class="three columns">
+			<h4>conferencia</h4>
+			<ul class="footer-links">
+				<li><a href="#">En noticias</a></li>
+				
+			</ul>
+		</div>		
+
+		<div class="three columns">
+			<h4>Buscador</h4>
+			<ul class="footer-links">
+				<li><a href="#">Freelancers por Categoria</a></li>
+				<li><a href="#">Freelancers en USA</a></li>
+				<li><a href="#">Freelancers en UK</a></li>
+				<li><a href="#">Freelancers en Canada</a></li>
+				<li><a href="#">Freelancers en Australia</a></li>
+				<li><a href="#">Encuentra trabajos</a></li>
+
+			</ul>
+		</div>
+
+	</div>
+
+	
+	<div class="container">
+		<div class="footer-bottom">
+			<div class="sixteen columns">
+				<h4>Siguenos</h4>
+				<ul class="social-icons">
+					<li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
+					<li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
+					<li><a class="gplus" href="#"><i class="icon-gplus"></i></a></li>
+					<li><a class="linkedin" href="#"><i class="icon-linkedin"></i></a></li>
+				</ul>
+				<div class="copyrights">©  Copyright por Grupo 5 <a href="#">trabajos</a>. All Rights Reserved.</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<div id="backtotop"><a href="#"></a></div>
+
+</div>
+
+<script src="scripts/jquery-2.1.3.min.js"></script>
+<script src="scripts/custom.js"></script>
+<script src="scripts/jquery.superfish.js"></script>
+<script src="scripts/jquery.themepunch.tools.min.js"></script>
+<script src="scripts/jquery.themepunch.revolution.min.js"></script>
+<script src="scripts/jquery.themepunch.showbizpro.min.js"></script>
+<script src="scripts/jquery.flexslider-min.js"></script>
+<script src="scripts/chosen.jquery.min.js"></script>
+<script src="scripts/jquery.magnific-popup.min.js"></script>
+<script src="scripts/waypoints.min.js"></script>
+<script src="scripts/jquery.counterup.min.js"></script>
+<script src="scripts/jquery.jpanelmenu.js"></script>
+<script src="scripts/stacktable.js"></script>
+
+
+</body>
+</html>
